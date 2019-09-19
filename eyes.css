@@ -27,7 +27,20 @@ background: linear-gradient(to right, #3c1053, #ad5389); /* W3C, IE 10+/ Edge, F
     display: inline-block;
     margin: 40px;
     border-radius: 50%;
-    
+    position: relative;
+    overflow: hidden;
+
+}
+.ball{
+    width: 40px;
+    height: 40px;
+    background: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    border: 15px solid #333;
 
 
 }
