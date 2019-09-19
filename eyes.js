@@ -7,6 +7,9 @@ document.onmousemove = function(){
 
 for( var i =0; i< 2; i++){
     balls[i].style.left =x;
+    balls[i].style.top =y;
+    balls[i].style.transform = "translate( -"+x+", -"+y+")";
+
 }
 
 }
